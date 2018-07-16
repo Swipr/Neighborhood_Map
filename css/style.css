@@ -1,0 +1,101 @@
+.header-font {
+     text-align: center;
+     margin: 20px;
+     margin-bottom: 0px;
+     font-size: 40px;
+     font-family: fantasy;
+     padding-bottom: 25px;
+}
+ nav.sidebar.navbar {
+     border-radius: 2px;
+     height: 82vh;
+     color: aliceblue;
+     text-align: center;
+}
+ .filter {
+     width: 100%;
+     text-align: center;
+     color: black;
+}
+ li {
+     font-size: 20px;
+     line-height: 40px;
+     margin-bottom: 20px;
+}
+ #map {
+     height: 82vh;
+}
+ .hoverable {
+     border: 1px solid gray;
+     border-radius: 10px;
+}
+ .hoverable {
+     transition: box-shadow .3s;
+     transition: all .2s ease-in-out;
+     box-shadow: 0 0 12px rgba(33, 33, 33, 1);
+     cursor: pointer;
+}
+ .hoverable:hover {
+     transform: scale(1.1);
+}
+ nav.sidebar, .main{
+     -webkit-transition: margin 200ms ease-out;
+     -moz-transition: margin 200ms ease-out;
+     -o-transition: margin 200ms ease-out;
+     transition: margin 200ms ease-out;
+}
+ footer {
+     text-align: right;
+}
+/*small/medium side display*/
+ @media (max-width: 361px) {
+    .navbar-toggle{
+        padding-right: 12px;
+    }
+     nav.sidebar.navbar {
+         height: 20%;
+         color: aliceblue;
+         text-align: center;
+         border-radius: 2px;
+    }
+     .header-font {
+         text-align: center;
+         margin-top: 20px;
+         font-size: 30px;
+         font-family: fantasy;
+         padding-bottom: 15px;
+    }
+     
+    .hamburger-center {
+        padding-right: 0px;
+    }
+}
+ @media (max-width: 768px) {
+     .navbar-nav {
+         line-height: 45px;
+    }
+     li {
+         font-size: 15px;
+         line-height: 30px;
+         margin-top: 12.5px;
+    }
+
+    }
+    /* .....NavBar: Fully showing nav bar..... */
+     @media (max-width: 1330px) {
+
+        /*Show all nav*/
+         nav.sidebar{
+             margin-left: 0px;
+             float: left;
+        }
+
+         nav.sidebar.navbar {
+             height: 20%;
+        }
+         
+         li {
+             margin-top: 10px;
+         }
+
+    
