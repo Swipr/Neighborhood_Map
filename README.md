@@ -4,7 +4,14 @@
 &nbsp;
 
 ### Dog catalog.
+
+You will develop a single page application featuring a map of your neighborhood or a neighborhood you would like to visit. You will then add functionality to this map including highlighted locations, third-party data about those locations and various ways to browse the content.
+
+
 *This is project 5 of the [Udacity Full Stack Nanodegree](https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004) course.*
+
+
+#### DEMO : https://www.swipr.co/portfolio/neighborhood/
 
 &nbsp;
 
